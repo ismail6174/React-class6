@@ -1,6 +1,6 @@
 import Table from 'react-bootstrap/Table';
 
-const Tables = (recorddata)=> {
+const Tables = ({recorddata})=> {
   return (
     <Table striped bordered hover>
       <thead>
